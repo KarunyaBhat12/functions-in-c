@@ -1,0 +1,25 @@
+//program to convert string from upper case to lower case using function
+
+#include<stdio.h>
+#include<string.h>
+void ToLower(char str[]);
+int main(){
+    char str[100];
+    printf("Enter a string :");
+    scanf("%s",str);
+    ToLower(str);
+    printf("String in lower case : %s",str);
+    return 0;
+}
+void ToLower(char str[]){
+    int i;
+    for(i=0;i<strlen(str);i++){
+        if(str[i]>='A'&&str[i]<='Z'){
+            str[i]=str[i]+32;
+        }
+    }
+}
+
+//output
+Enter a string :KARUNYA
+String in lower case : karunya
