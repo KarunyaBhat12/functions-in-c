@@ -3,3 +3,15 @@
 *why do we need a function ?
   - to implement recursive algorithm , we need function.
 *Algorithm (2 types) : iterative- repetition(for while do while loop) ; Recursive(ex: tower of hanoi, linked list)
+
+*function defination syntax :
+  <return_type><function_name>(parameter_list){
+         <function_body>
+         return <return_value>;
+  }
+
+*function declaration syntax :
+   <return_type><function_name>(<parameter_types>)
+
+*function calling syntax
+  <variable>=<function_name>(<argument_list>)
