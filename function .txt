@@ -1,0 +1,5 @@
+*Functions is set of statements to perform specific task.
+*ex : printf, scanf
+*why do we need a function ?
+  - to implement recursive algorithm , we need function.
+*Algorithm (2 types) : iterative- repetition(for while do while loop) ; Recursive(ex: tower of hanoi, linked list)
